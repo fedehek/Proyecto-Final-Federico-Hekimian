@@ -1,0 +1,123 @@
+.recetas_title {
+  color: $primary-color;
+  text-align: center;
+  font-size: 40px;
+  background-color: white;
+  padding: 10px;
+  border: 3px double black;
+}
+
+.recetas_p {
+  font-size: 20px;
+  text-align: center;
+  color: $primary-color;
+  padding: 10px;
+}
+
+.cards {
+  display: block;
+  margin-left: 20%;
+}
+
+.card1 {
+  color: white;
+  background-image: url("../imagenesSiranush/siranushM2.jpg");
+  background-size: cover;
+  padding: 10rem 0 0;
+  max-width: 280px;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+  margin-bottom: 10px;
+}
+
+.card1:hover,
+.card1:focus-within {
+  transform: scale(1.05);
+}
+
+.card2 {
+  color: white;
+  background-image: url("../imagenesSiranush/siranushL3.jpg");
+  background-size: cover;
+  padding: 10rem 0 0;
+  max-width: 280px;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card2:hover,
+.card2:focus-within {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 1rem;
+  background: linear-gradient(black, rgba(0, 0, 0, 0.5));
+}
+
+.card-content__title {
+  text-decoration-color: lightgray;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20%;
+}
+
+.card-content__body {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media (hover) {
+  .card-content {
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+  }
+  .card1:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+
+  .card2:hover .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+}
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 0.2rem 1rem;
+  border-radius: 0.25rem;
+  transition: all 0.5s ease;
+}
+
+.button:hover,
+.button:focus {
+  background-color: white;
+  color: black;
+}
+
+@media (min-width: 760px) {
+  .row_recetas {
+    max-width: 800px;
+    background-color: #333;
+    margin-left: 20%;
+  }
+
+  .recetas_p {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(224, 159, 159);
+    padding: 10px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0;
+  }
+}
