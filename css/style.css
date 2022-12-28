@@ -93,6 +93,7 @@
   }
   .footer .icon_item {
     margin-left: 100px;
+    cursor: pointer;
   }
 }
 .img__header {
@@ -108,7 +109,7 @@
 
 @media (min-width: 760px) {
   .logo {
-    width: 100%;
+    width: 95%;
     margin-left: 50px;
   }
   .body_backround {
@@ -308,7 +309,7 @@
   border-radius: 1rem;
   overflow: hidden;
   transition: transform 500ms ease;
-  margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 .card1:hover,
@@ -325,6 +326,7 @@
   border-radius: 1rem;
   overflow: hidden;
   transition: transform 500ms ease;
+  margin-top: 15px;
 }
 
 .card2:hover,
@@ -395,6 +397,10 @@
     display: flex;
     justify-content: space-evenly;
     margin: 40px 0;
+  }
+  .card-content__body {
+    margin-bottom: 50px;
+    text-align: center;
   }
 }
 .nosotros_title {
@@ -482,7 +488,18 @@
   margin-bottom: 10px;
 }
 
+textarea {
+  width: 400px;
+}
+
+.contacto_img {
+  max-width: 100%;
+}
+
 @media (min-width: 760px) {
+  .contacto_container {
+    display: flex;
+  }
   .contacto_title {
     color: #e6001f;
     text-align: center;
@@ -492,7 +509,7 @@
     border: 3px double black;
   }
   .contacto_card {
-    margin: 30px;
+    margin-left: 100px;
     width: 50%;
   }
   .contacto_name {
@@ -504,6 +521,16 @@
   }
   .form__mensaje {
     margin-top: 20px;
+  }
+  textarea {
+    width: 400px;
+    border-radius: 10px;
+  }
+  .contacto_img {
+    width: 500px;
+    height: 300px;
+    margin-right: 200px;
+    border-radius: 10%;
   }
 }
 

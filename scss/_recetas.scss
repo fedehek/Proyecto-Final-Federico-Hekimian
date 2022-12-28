@@ -28,7 +28,7 @@
   border-radius: 1rem;
   overflow: hidden;
   transition: transform 500ms ease;
-  margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 .card1:hover,
@@ -45,6 +45,7 @@
   border-radius: 1rem;
   overflow: hidden;
   transition: transform 500ms ease;
+  margin-top: 15px;
 }
 
 .card2:hover,
@@ -119,5 +120,10 @@
     display: flex;
     justify-content: space-evenly;
     margin: 40px 0;
+  }
+
+  .card-content__body {
+    margin-bottom: 50px;
+    text-align: center;
   }
 }

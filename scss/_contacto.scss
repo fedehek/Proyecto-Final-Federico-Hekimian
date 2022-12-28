@@ -21,7 +21,19 @@
   margin-bottom: 10px;
 }
 
+textarea {
+  width: 400px;
+}
+
+.contacto_img {
+  max-width: 100%;
+}
+
 @media (min-width: 760px) {
+  .contacto_container {
+    display: flex;
+  }
+
   .contacto_title {
     color: $primary-color;
     text-align: center;
@@ -32,7 +44,7 @@
   }
 
   .contacto_card {
-    margin: 30px;
+    margin-left: 100px;
     width: 50%;
   }
 
@@ -47,5 +59,17 @@
 
   .form__mensaje {
     margin-top: 20px;
+  }
+
+  textarea {
+    width: 400px;
+    border-radius: 10px;
+  }
+
+  .contacto_img {
+    width: 500px;
+    height: 300px;
+    margin-right: 200px;
+    border-radius: 10%;
   }
 }
