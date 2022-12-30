@@ -217,13 +217,6 @@
   width: 100%;
 }
 
-.card_description {
-  width: 100%;
-  font-size: 15px;
-  font-family: fontThin;
-  text-align: center;
-}
-
 .card_button {
   background: black;
   color: white;
@@ -252,14 +245,12 @@
   }
   .productos_card {
     display: flex;
-    flex: 0 1 250px;
     flex-direction: column;
     border-radius: 1rem;
     padding: 1rem;
     background-color: white;
   }
   .card_img {
-    order: -1;
     align-self: center;
     border-radius: 1rem;
     height: 300px;
@@ -267,6 +258,8 @@
   }
   .card_title {
     text-align: center;
+    margin: none;
+    font-weight: 2px;
   }
   .card_button {
     background: black;
@@ -348,6 +341,7 @@
 
 .card-content__body {
   color: rgba(255, 255, 255, 0.8);
+  text-align: center;
 }
 
 @media (hover) {
